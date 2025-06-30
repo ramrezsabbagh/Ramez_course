@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Digitrans</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="scripts.js"></script>
+</head>
+<body>
+    <header>
+        <nav class="nav">
+            <a href="index.html" class="logo">Digitrans</a>
+            <button id="nav-toggle" aria-label="Toggle Navigation">☰</button>
+            <ul id="nav-links" class="nav-links">
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Contact Us</h1>
+        <form id="contact-form" action="#" method="post">
+            <label for="name">Name</label>
+            <input id="name" name="name" required>
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" required>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+        <p id="form-status" aria-live="polite"></p>
+    </main>
+    <footer>
+        <p>&copy; 2023 Digitrans. All rights reserved.</p>
+    </footer>
+</body>
+</html>
